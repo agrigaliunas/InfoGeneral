@@ -1,0 +1,10 @@
+
+#    ***** Algoritmo para saber si un string es palindromo o no *****    #
+
+def esPalindromo(texto):
+    palindromo = True
+    for i in range(len(texto)):
+        if (texto[-i-1] != texto[i]):
+           palindromo = False
+    return palindromo
+print(esPalindromo("rayar"))

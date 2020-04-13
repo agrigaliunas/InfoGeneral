@@ -1,0 +1,12 @@
+
+    ***** Algoritmo para saber si un numero es primo o no *****    #
+
+def esPrimo(n):
+    primo = True
+    i= 2
+    while(i<n):
+        if n%i == 0:
+            primo = False
+        i+=1
+        
+    return primo
